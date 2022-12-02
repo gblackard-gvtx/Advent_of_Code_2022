@@ -19,7 +19,7 @@ const readFileGetMax = (fileName)=>{
     });
     totalArr.sort();
     totalArr.reverse();
-    
+    console.log("Highest: " + max);
    let totalTop = totalArr[0]+totalArr[1]+totalArr[2];
    console.log("Three Highest Proformers Total: "+ totalTop);
     
